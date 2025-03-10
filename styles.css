@@ -9,4 +9,7 @@ header {
 
 div {
   background: white;
+  display: inline-block;
+  padding-left: 30px;
+  padding-top: 20px;
 }
