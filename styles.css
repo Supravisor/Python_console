@@ -2,3 +2,8 @@
 body {
   background: #FFE873;
 }
+
+header {
+  text-align: center;
+  background: white;
+}
