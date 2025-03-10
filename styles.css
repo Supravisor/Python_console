@@ -16,6 +16,5 @@ header {
 }
 
 #header {
-  position: fixed;
-  top: 30px;
+  color: transparent;
 }
