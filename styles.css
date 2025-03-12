@@ -26,3 +26,7 @@ input, select {
   font-size: 15px;
   text-align: center;
 }
+
+select {
+  padding: 8px 15px;
+}
