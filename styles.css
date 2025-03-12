@@ -30,3 +30,7 @@ input, select {
 select {
   padding: 8px 15px;
 }
+
+input {
+  padding: 10px 15px;
+}
