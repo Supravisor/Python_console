@@ -18,3 +18,19 @@ header {
 h1 {
   font-family: Tahoma;
 }
+
+input, select {
+  background: white;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: center;
+}
+
+select {
+  padding: 8px 15px;
+}
+
+input {
+  padding: 10px 15px;
+}
