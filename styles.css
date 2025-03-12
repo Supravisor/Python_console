@@ -19,7 +19,7 @@ h1 {
   font-family: Tahoma;
 }
 
-input {
+input, select {
   background: white;
   margin: 4px 2px;
   cursor: pointer;
