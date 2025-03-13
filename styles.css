@@ -34,3 +34,7 @@ select {
 input {
   padding: 10px 15px;
 }
+
+.name {
+  margin-top: 2em;
+}
