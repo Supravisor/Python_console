@@ -38,3 +38,15 @@ input {
 .name {
   margin-top: 2em;
 }
+
+.block {
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  min-width: 60px;
+}
