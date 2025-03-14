@@ -19,6 +19,15 @@ h1 {
   font-family: Tahoma;
 }
 
+/* textarea */
+
+textarea {
+  background: lightgrey;
+  height: 20vh;
+  width: 80vw;
+  margin-left: 10vw;
+}
+
 input, select {
   background: white;
   margin: 4px 2px;
