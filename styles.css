@@ -22,9 +22,10 @@ h1 {
 /* textarea */
 
 textarea {
-  background: grey;
+  background: lightgrey;
   height: 20vh;
   width: 80vw;
+  margin-left: 10vw;
 }
 
 input, select {
