@@ -1,6 +1,7 @@
 
 body {
   background: #FFE873;
+  font-family: Arial;
 }
 
 header {
@@ -36,12 +37,12 @@ input, select {
   text-align: center;
 }
 
-select {
-  padding: 8px 15px;
-}
-
 input {
   padding: 10px 15px;
+}
+
+select {
+  padding: 15px 15px;
 }
 
 .name {
@@ -58,4 +59,10 @@ input {
   text-align: center;
   text-decoration: none;
   min-width: 60px;
+}
+
+/* colours */
+
+.purple {
+  background: purple;
 }
