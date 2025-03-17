@@ -296,19 +296,23 @@
     </div>
 
     <div id="button">
-      Indentation selector
-      <select name="indentation">
-        <option value=""></option>
-        <option value="    ">level 1</option>
-        <option value="        ">level 2</option>
-        <option value="            ">level 3</option>
-        <option value="                ">level 4</option>
-        <option value="                    ">level 5</option>
-      </select>
+      <div>
+        Indentation selector
+        <select name="indentation">
+          <option value=""></option>
+          <option value="    ">level 1</option>
+          <option value="        ">level 2</option>
+          <option value="            ">level 3</option>
+          <option value="                ">level 4</option>
+          <option value="                    ">level 5</option>
+        </select>
+        <input type="button" class="block purple" value="comment" onclick="document.console.textbox.value+='\n# '">
+      </div>
 
-      <input type="button" class="block purple" value="comment" onclick="document.console.textbox.value+='\n# '">
-
-      <input class="name" type="button" value="class">
+    <!-- class -->
+      <div>
+        <input class="name" type="button" value="class">
+      </div>
       
     </div>
 
