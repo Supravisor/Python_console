@@ -35,7 +35,14 @@ input, select {
   cursor: pointer;
   font-size: 15px;
   text-align: center;
+}
+
+input {
   padding: 10px 15px;
+}
+
+select {
+  padding: 15px 15px;
 }
 
 .name {
