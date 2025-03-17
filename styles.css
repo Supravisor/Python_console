@@ -45,13 +45,6 @@ input, select {
   cursor: pointer;
   font-size: 15px;
   text-align: center;
-}
-
-input {
-  padding: 10px 15px;
-}
-
-select {
   padding: 15px 15px;
 }
 
@@ -65,7 +58,6 @@ select {
   display: inline-block;
   font-size: 15px;
   margin: 4px 2px;
-  padding: 15px 10px;
   text-align: center;
   text-decoration: none;
   min-width: 60px;
