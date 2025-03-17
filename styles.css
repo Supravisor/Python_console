@@ -34,9 +34,12 @@ textarea {
 }
 
 .name {
-  background: DarkGrey;
+  background: #646464;
   border-radius: 7px;
   border: 1px solid black;
+  color: #FFD43B;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 input, select {
