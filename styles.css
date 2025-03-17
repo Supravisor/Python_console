@@ -29,6 +29,10 @@ textarea {
   margin-left: 10vw;
 }
 
+#button {
+  padding: 1em 2em;
+}
+
 input, select {
   background: white;
   margin: 4px 2px;
