@@ -38,6 +38,7 @@ textarea {
   border-radius: 7px;
   border: 1px solid black;
   color: white;
+  display: block;
   padding-left: 30px;
   padding-right: 30px;
 }
