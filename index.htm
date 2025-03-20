@@ -317,6 +317,20 @@
         <input type="button" class="block coral" value="class" onclick="document.console.textbox.value+='class ' + document.console.class.value + ':\n    '">
         <input type="text" name="class" value="">
 
+        <br /><input type="button" value="methods">
+        <input type="button" class="block coral" value="abstract method" onclick="document.console.textbox.value+='@'">
+
+        <select name="classMethods">
+          <option value=""></option>
+          <option value="__init__">__init__</option>
+          <option value="super().__init__">super().__init__</option>
+          <option value="__getattribute__">__getattribute__</option>
+          <option value="__repr__">__repr__</option>
+          <option value="__str__">__str__</option>
+          <option value="__mul__">__mul__</option>
+          <option value="__add__">__add__</option>
+        </select>
+
       </div>
       
     </div>
