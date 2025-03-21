@@ -338,6 +338,7 @@
           <option value="__lt__">__lt__</option>
         </select>
 
+        <input type="button" class="block coral" value="predefined method" onclick="document.console.textbox.value+=document.console.classMethod.value == '' ? '\n    def ' + document.console.classMethods.value + '(self' + document.console.keywordArgument.value + '):\n        self.' + document.console.classMethod.value + ' = ' + document.console.classMethod.value + '\n' + '        ' : '\n    def ' + document.console.classMethods.value + '(self' + document.console.keywordArgument.value + ', ' + document.console.classMethod.value + '):\n        self.' + document.console.classMethod.value + ' = ' + document.console.classMethod.value + '\n' + '        '">
       </div>
       
     </div>
