@@ -329,8 +329,16 @@
           <option value="__str__">__str__</option>
           <option value="__mul__">__mul__</option>
           <option value="__add__">__add__</option>
+          <option value="__sub__">__sub__</option>
+          <option value="__eq__">__eq__</option>
+          <option value="__ne__">__ne__</option>
+          <option value="__ge__">__ge__</option>
+          <option value="__gt__">__gt__</option>
+          <option value="__le__">__le__</option>
+          <option value="__lt__">__lt__</option>
         </select>
 
+        <input type="button" class="block coral" value="predefined method" onclick="document.console.textbox.value+=document.console.classMethod.value == '' ? '\n    def ' + document.console.classMethods.value + '(self' + document.console.keywordArgument.value + '):\n        self.' + document.console.classMethod.value + ' = ' + document.console.classMethod.value + '\n' + '        ' : '\n    def ' + document.console.classMethods.value + '(self' + document.console.keywordArgument.value + ', ' + document.console.classMethod.value + '):\n        self.' + document.console.classMethod.value + ' = ' + document.console.classMethod.value + '\n' + '        '">
       </div>
       
     </div>
