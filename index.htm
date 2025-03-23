@@ -340,6 +340,7 @@
 
         <input type="button" class="block coral" value="predefined method" onclick="document.console.textbox.value+=document.console.classMethod.value == '' ? '\n    def ' + document.console.classMethods.value + '(self' + document.console.keywordArgument.value + '):\n        self.' + document.console.classMethod.value + ' = ' + document.console.classMethod.value + '\n' + '        ' : '\n    def ' + document.console.classMethods.value + '(self' + document.console.keywordArgument.value + ', ' + document.console.classMethod.value + '):\n        self.' + document.console.classMethod.value + ' = ' + document.console.classMethod.value + '\n' + '        '">
         <input type="button" class="block coral" value="custom method" onclick="document.console.textbox.value+='\n    def ' + document.console.classMethod.value + '(self' + document.console.keywordArgument.value + '):\n        '">
+        <input type="text" name="classMethod" value="">
       </div>
       
     </div>
