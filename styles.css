@@ -76,3 +76,7 @@ input, select {
 .purple {
   background: purple;
 }
+
+.hidden {
+  display: none;
+}
