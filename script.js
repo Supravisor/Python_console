@@ -11,9 +11,9 @@ function keywordArg() {
     keywordArgumentBtn.style.border = "2px solid coral";
   } else {
     keywordArgumentValue.value = "";
-    keywordArgumentBtn.style.color = "white";
+    keywordArgumentBtn.style.color = "black";
     keywordArgumentBtn.style.background = "coral";
-    keywordArgumentBtn.style.border = "2px inset";
+    keywordArgumentBtn.style.border = "2px inset black";
   }
 
 }
