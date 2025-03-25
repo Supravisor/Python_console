@@ -345,10 +345,11 @@
         <input type="button" class="block coral" id="keyword-argument-btn" value="keyword only argument" onclick="keywordArg()">
 
         <br /><input type="button" value="built-in functions">
-        <input type="button" class="block coral" value="get attribute" onclick="document.console.textbox.value+='getattr(' + document.console.classObject.value + ', \'' + document.console.classAttributeName.value + '\')'">
-        <input type="button" class="block coral" value="has attribute" onclick="document.console.textbox.value+='hasattr(' + document.console.classObject.value + ', \'' + document.console.classAttributeName.value + '\')'">
-        <input type="button" class="block coral" value="is instance" onclick="document.console.textbox.value+='isinstance(' + document.console.classObject.value + ', \'' + document.console.classAttributeName.value + '\')'">
+        <input type="button" class="block coral" value="get attribute" onclick="document.console.textbox.value+='getattr(' + document.console.classObject.value + ', \'' + document.console.classAttribute.value + '\')'">
+        <input type="button" class="block coral" value="has attribute" onclick="document.console.textbox.value+='hasattr(' + document.console.classObject.value + ', \'' + document.console.classAttribute.value + '\')'">
+        <input type="button" class="block coral" value="is instance" onclick="document.console.textbox.value+='isinstance(' + document.console.classObject.value + ', \'' + document.console.classAttribute.value + '\')'">
         <input type="text" name="classObject" value="" placeholder="object">
+        <input type="text" name="classAttribute" value="" placeholder="argument">
       </div>
       
     </div>
