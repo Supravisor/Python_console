@@ -6,6 +6,8 @@ function keywordArg() {
 
   if (keywordArgumentValue.value === "") {
     keywordArgumentValue.value = ", *";
+    keywordArgumentBtn.style.color = "coral";
+    keywordArgumentBtn.style.background = "white";
   }
 
 }
