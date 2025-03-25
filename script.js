@@ -5,6 +5,7 @@ function keywordArg() {
   const keywordArgumentValue = document.console.keywordArgument.value;
 
   if (keywordArgumentValue === "") {
-    }
+    keywordArgumentValue = ", *";
+  }
 
 }
