@@ -9,7 +9,7 @@ function keywordArg() {
     keywordArgumentBtn.style.color = "coral";
     keywordArgumentBtn.style.background = "white";
   } else {
-    keywordArgumentValue = "";
+    keywordArgumentValue.value = "";
     keywordArgumentBtn.style.color = "white";
     keywordArgumentBtn.style.background = "coral";
   }
