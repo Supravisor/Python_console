@@ -2,10 +2,10 @@
 const keywordArgumentBtn = document.getElementById("keyword-argument-btn");
 
 function keywordArg() {
-  const keywordArgumentValue = document.console.keywordArgument.value;
+  let keywordArgumentValue = document.console.keywordArgument;
 
-  if (keywordArgumentValue === "") {
-    keywordArgumentValue = ", *";
+  if (keywordArgumentValue.value === "") {
+    keywordArgumentValue.value = ", *";
   }
 
 }
