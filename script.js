@@ -13,7 +13,7 @@ function keywordArg() {
     keywordArgumentValue.value = "";
     keywordArgumentBtn.style.color = "white";
     keywordArgumentBtn.style.background = "coral";
-    keywordArgumentBtn.style.border = "unset";
+    keywordArgumentBtn.style.border = "2px inset";
   }
 
 }
