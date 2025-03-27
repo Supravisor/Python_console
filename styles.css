@@ -70,11 +70,15 @@ input, select {
 /* colours */
 
 .coral {
-  background-color: coral;
+  background: coral;
 }
 
 .purple {
   background: purple;
+}
+
+.springgreen {
+  background: springgreen;
 }
 
 .hidden {
