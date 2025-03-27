@@ -350,6 +350,10 @@
         <input type="button" class="block coral" value="is instance" onclick="document.console.textbox.value+='isinstance(' + document.console.classObject.value + ', \'' + document.console.classAttribute.value + '\')'">
         <input type="text" name="classObject" value="" placeholder="object">
         <input type="text" name="classAttribute" value="" placeholder="argument">
+
+        <br />
+        <input type="button" class="block coral" value="call an instance method" onclick="document.console.textbox.value+='\n' + document.console.class.value + '.' + document.console.classMethod.value + '()'">
+
       </div>
       
     </div>
