@@ -70,7 +70,7 @@ input, select {
 /* colours */
 
 .coral {
-  background-color: coral;
+  background: coral;
 }
 
 .purple {
@@ -78,7 +78,7 @@ input, select {
 }
 
 .springgreen {
-  background: green:
+  background: springgreen;
 }
 
 .hidden {
