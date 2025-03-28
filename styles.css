@@ -73,12 +73,19 @@ input, select {
   background: coral;
 }
 
+.cyan {
+  background: cyan;
+}
+
 .purple {
   background: purple;
 }
 
 .springgreen {
   background: springgreen;
+}
+
+.cyan, .springreen {
   color: black;
 }
 
