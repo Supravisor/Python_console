@@ -361,7 +361,17 @@
         <input type="button" class="block springgreen" value="translate" onclick="document.console.textbox.value+=' = ' + document.console.translate.value + '.translate(' + document.console.translationTable.value + ')\n'">
         <input type="text" name="translate" value="">
       </div>
-      
+
+    <!-- conditional statements -->
+      <div>
+        <input class="name" type="button" value="conditional statements">
+        <input type="button" class="block cyan" value="if" onclick="document.console.textbox.value+='\n'  + document.console.indentation.value + 'if ' + document.console.if.value + ':\n'  + document.console.indentation.value + '    '">
+        <input type="button" class="block cyan" value="if not" onclick="document.console.textbox.value+='\n'  + document.console.indentation.value + 'if not ' + document.console.if.value + ':\n'  + document.console.indentation.value + '    '">
+        <input type="text" name="if" value="">
+        <input type="button" class="block cyan" value="else" onclick="document.console.textbox.value+='\n'  + document.console.indentation.value + 'else:\n'  + document.console.indentation.value + '    ' + document.console.else.value">
+        <input type="text" name="else" value="">
+      </div>
+
     </div>
 
   </form>
