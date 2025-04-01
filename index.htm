@@ -377,6 +377,7 @@
 
         <br /><input type="button" class="block cyan" value="continue" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + '    continue'">
         <input type="button" class="block cyan" value="not in" onclick="document.console.textbox.value+=document.console.if.value + ' not in ' + document.console.else.value + '\n'">
+        <input type="button" class="block cyan" value="not a module" onclick="document.console.textbox.value+='if __name__ == \'__main__\':\n    '">
       </div>
 
     </div>
