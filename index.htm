@@ -380,6 +380,13 @@
         <input type="button" class="block cyan" value="not a module" onclick="document.console.textbox.value+='if __name__ == \'__main__\':\n    '">
       </div>
 
+      <!-- constructor -->
+      <div>
+        <input class="name" type="button" value="constructor">
+        <input type="button" class="block brown" value="tuple" onclick="document.console.textbox.value+='tuple(' + document.console.tupleConstructor.value + ')'">
+        <input type="text" name="tupleConstructor" value="">
+      </div>
+
     </div>
 
   </form>

@@ -69,6 +69,10 @@ input, select {
 
 /* colours */
 
+.brown {
+  background: brown;
+}
+
 .coral {
   background: coral;
 }
