@@ -390,8 +390,9 @@
       <!-- dictionaries -->
       <div>
         <input class="name" type="button" value="dictionaries">
-        <input type="button" class="block crimson" value="= dictionary" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + document.console.dictionaryName.value + ' = {'">
+        <input type="button" class="block crimson" value="&equals; dictionary" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + document.console.dictionaryName.value + ' = {'">
         <input type="button" class="block crimson" value="dictionary" onclick="document.console.textbox.value+='{'">
+        <input type="button" class="block crimson" value="@" onclick="document.console.textbox.value+='\n    ' + document.console.indentation.value + '\'' + document.console.dictionaryKey.value + '\': ' + document.console.dictionaryValue.value + ', '">
       </div>
 
     </div>
