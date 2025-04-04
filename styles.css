@@ -67,7 +67,7 @@ input, select {
   min-width: 60px;
 }
 
-/* colours */
+/* colours  - background */
 
 .brown {
   background: brown;
@@ -85,6 +85,10 @@ input, select {
   background: cyan;
 }
 
+.grey {
+  background: grey;
+}
+
 .purple {
   background: purple;
 }
@@ -92,6 +96,8 @@ input, select {
 .springgreen {
   background: springgreen;
 }
+
+/* colours - text */
 
 .cyan, .springgreen {
   color: black;
