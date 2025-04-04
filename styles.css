@@ -97,6 +97,10 @@ input, select {
   color: black;
 }
 
+.grey {
+  color: grey;
+}
+
 .hidden {
   display: none;
 }
