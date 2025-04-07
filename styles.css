@@ -68,7 +68,7 @@ input, select {
   min-width: 60px;
 }
 
-.name, block {
+.name, .block {
   padding: 15px 15px;
 }
 
