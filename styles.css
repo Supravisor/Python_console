@@ -29,14 +29,16 @@ textarea {
   margin-left: 10vw;
 }
 
+/* buttons */
+
 #button {
   padding: 1em 2em;
 }
 
 .name {
   background: #646464;
-  border-radius: 7px;
   border: 1px solid black;
+  border-radius: 7px;
   color: white;
   display: block;
   padding-left: 30px;
@@ -45,11 +47,11 @@ textarea {
 
 input, select {
   background: white;
-  margin: 4px 2px;
   cursor: pointer;
   font-size: 15px;
-  text-align: center;
+  margin: 4px 2px;
   padding: 15px 15px;
+  text-align: center;
 }
 
 .name {
@@ -62,9 +64,14 @@ input, select {
   display: inline-block;
   font-size: 15px;
   margin: 4px 2px;
+  min-width: 60px;
   text-align: center;
   text-decoration: none;
-  min-width: 60px;
+}
+
+.subheading {
+  border: 1px solid black;
+  padding: 5px 5px;
 }
 
 /* colours  - background */
