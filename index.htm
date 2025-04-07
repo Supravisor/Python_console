@@ -317,7 +317,7 @@
         <input type="button" class="block coral" value="class" onclick="document.console.textbox.value+='class ' + document.console.class.value + ':\n    '">
         <input type="text" name="class" value="">
 
-        <br /><input type="button" value="methods">
+        <br /><input type="button" class="subheading" value="methods">
         <input type="button" class="block coral" value="abstract method" onclick="document.console.textbox.value+='@'">
 
         <select name="classMethods">
@@ -344,7 +344,7 @@
         <input type="text" name="keywordArgument" value="" class="hidden">
         <input type="button" class="block coral" id="keyword-argument-btn" value="keyword only argument" onclick="keywordArg()">
 
-        <br /><input type="button" value="built-in functions">
+        <br /><input type="button" class="subheading" value="built-in functions">
         <input type="button" class="block coral" value="get attribute" onclick="document.console.textbox.value+='getattr(' + document.console.classObject.value + ', \'' + document.console.classAttribute.value + '\')'">
         <input type="button" class="block coral" value="has attribute" onclick="document.console.textbox.value+='hasattr(' + document.console.classObject.value + ', \'' + document.console.classAttribute.value + '\')'">
         <input type="button" class="block coral" value="is instance" onclick="document.console.textbox.value+='isinstance(' + document.console.classObject.value + ', \'' + document.console.classAttribute.value + '\')'">
@@ -355,7 +355,7 @@
         <input type="button" class="block coral" value="call an instance method" onclick="document.console.textbox.value+='\n' + document.console.class.value + '.' + document.console.classMethod.value + '()'">
         <input type="button" class="block coral" value="NotImplemented" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'return NotImplemented\n' + document.console.indentation.value + '    '">
 
-        <br /><input type="button" value="str">
+        <br /><input type="button" class="subheading" value="str">
         <input type="button" class="block springgreen" value="makestrans" onclick="document.console.textbox.value+='\n' + document.console.translationTable.value + ' = str.maketrans({})\n'">
         <input type="text" name="translationTable" value="">
         <input type="button" class="block springgreen" value="translate" onclick="document.console.textbox.value+=' = ' + document.console.translate.value + '.translate(' + document.console.translationTable.value + ')\n'">
@@ -402,7 +402,7 @@
         <input type="button" class="block grey" value="delete" onclick="document.console.textbox.value+='\ndel ' + document.console.dictionaryName.value + '[\'' + document.console.dictionaryKey.value + '\']'">
         <input type="button" class="block grey" value="update" onclick="document.console.textbox.value+='\n' + document.console.dictionaryName.value + '[\'' + document.console.dictionaryKey.value + '\'] = ' + document.console.dictionaryValue.value">
 
-        <br /><input type="button" value="method">
+        <br /><input type="button" class="subheading" value="method">
         <input type="button" class="block crimson" value="values" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'for ' + document.console.dictionaryMethod.value + ' in ' + document.console.dictionaryName.value + '.values():\n' + document.console.indentation.value + '    '">
         <input type="button" class="block crimson" value="items" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'for ' + document.console.dictionaryMethod.value + ' in ' + document.console.dictionaryName.value + '.items():\n' + document.console.indentation.value + '    '">
         <input type="text" name="dictionaryMethod" value="">
