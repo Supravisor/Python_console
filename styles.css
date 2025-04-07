@@ -29,6 +29,8 @@ textarea {
   margin-left: 10vw;
 }
 
+/* buttons */
+
 #button {
   padding: 1em 2em;
 }
@@ -49,7 +51,6 @@ input, select {
   cursor: pointer;
   font-size: 15px;
   text-align: center;
-  padding: 15px 15px;
 }
 
 .name {
@@ -65,6 +66,10 @@ input, select {
   text-align: center;
   text-decoration: none;
   min-width: 60px;
+}
+
+.name, block {
+  padding: 15px 15px;
 }
 
 /* colours  - background */
