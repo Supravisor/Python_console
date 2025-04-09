@@ -416,6 +416,8 @@
         <input type="button" class="block blue" value="definition" onclick="document.console.textbox.value+='\n'  + document.console.indentation.value + 'def ' + document.console.function.value + '(' + document.console.functionArgument.value + '):\n'  + document.console.indentation.value + '    '">
         <input type="button" class="block blue" value="call" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + document.console.function.value + '()'">
         <input type="text" name="function" value="">
+
+        <br /><input type="button" class="block blue" value="absolute" onclick="document.console.textbox.value+='abs(' + document.console.function.value + document.console.functionArgument.value + ')'">
       </div>
 
     </div>
