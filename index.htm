@@ -416,6 +416,14 @@
         <input type="button" class="block blue" value="definition" onclick="document.console.textbox.value+='\n'  + document.console.indentation.value + 'def ' + document.console.function.value + '(' + document.console.functionArgument.value + '):\n'  + document.console.indentation.value + '    '">
         <input type="button" class="block blue" value="call" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + document.console.function.value + '()'">
         <input type="text" name="function" value="">
+
+        <br /><input type="button" class="block blue" value="absolute" onclick="document.console.textbox.value+='abs(' + document.console.function.value + document.console.functionArgument.value + ')'">
+        <input type="button" class="block blue" value="all" onclick="document.console.textbox.value+='all(' + document.console.function.value + document.console.functionArgument.value + ')'">
+        <input type="button" class="block blue" value="any" onclick="document.console.textbox.value+='any(' + document.console.function.value + document.console.functionArgument.value + ')'">
+        <input type="button" class="block blue" value="enumerate" onclick="document.console.textbox.value+='enumerate(' + document.console.functionArgument.value + ')'">
+        <input type="button" class="block blue" value="filter" onclick="document.console.textbox.value+='filter(' + document.console.function.value + ', ' + document.console.functionArgument.value + ')'">
+        <input type="button" class="block blue" value="float" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'float(' + document.console.functionArgument.value + ')'">
+        <input type="button" class="block blue" value="float infinite" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'float(\'inf\')'">
       </div>
 
     </div>
