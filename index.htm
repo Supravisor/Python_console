@@ -427,10 +427,20 @@
         <input type="button" class="block blue" value="input" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'input(\'' + document.console.functionArgument.value + '\')'">
         <input type="button" class="block blue" value="integer" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'int(' + document.console.functionArgument.value + ')'">
         <input type="button" class="block blue" value="lambda" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'lambda ' + document.console.function.value + ': ' + document.console.functionArgument.value">
+        <input type="button" class="block springgreen" value="len" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'len(' + document.console.functionArgument.value + ')'">
         <input type="button" class="block blue" value="list" onclick="document.console.textbox.value+='list(' + document.console.functionArgument.value + ')'">
         <input type="button" class="block blue" value="map" onclick="document.console.textbox.value+='map(' + document.console.function.value + ', ' + document.console.functionArgument.value + ')'">
         <input type="button" class="block blue" value="max" onclick="document.console.textbox.value+='max(' + document.console.functionArgument.value + ')'">
         <input type="button" class="block blue" value="min" onclick="document.console.textbox.value+='min(' + document.console.functionArgument.value + ')'">
+        <input type="button" class="block blue" value="print" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'print(' + document.console.functionArgument.value + ')'">
+        <input type="button" class="block blue" value="string" onclick="document.console.textbox.value+='str(' + document.console.functionArgument.value + ')'">
+        <input type="button" class="block blue" value="sum" onclick="document.console.textbox.value+='sum(' + document.console.functionArgument.value + ')'">
+        <input type="button" class="block blue" value="tuple" onclick="document.console.textbox.value+='tuple(' + document.console.functionArgument.value + ')'">
+
+        <br /><input type="button" class="block blue" value="break" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + '    break'">
+        <input type="button" class="block blue" value="pass" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + '    pass'">
+        <input type="button" class="block blue" value="return" onclick="document.console.textbox.value+='\n'  + document.console.indentation.value + '    return '">
+        <input type="text" name="functionArgument" value="">
       </div>
 
     </div>
