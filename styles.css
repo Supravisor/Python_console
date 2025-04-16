@@ -96,6 +96,10 @@ input, select {
   background: blue;
 }
 
+.green {
+  background: green;
+}
+
 .grey {
   background: grey;
 }
