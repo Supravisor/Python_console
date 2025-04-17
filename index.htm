@@ -467,7 +467,7 @@
         <input type="button" class="block springgreen" value="join" onclick="document.console.textbox.value+='\'' + document.console.listMethod.value + '\'.join(' + document.console.list.value + ')'">
       </div>
 
-  <! loops -->
+  <!-- loops -->
       <div>
         <input class="name" type="button" value="loops">
         <input type="button" class="block green" value="for" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'for ' + document.console.iterator.value + ' in ' + document.console.iterable.value + ':\n' + document.console.indentation.value + '    '">
@@ -475,6 +475,19 @@
         <input type="button" class="block green" value="while" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'while ' + document.console.iterator.value + ':\n' + document.console.indentation.value + '    '">
         <input type="text" name="iterator" value="i">
         <input type="text" name="iterable" value="list">
+      </div>
+
+  <!-- modules -->
+      <div>
+        <input class="name" type="button" value="modules">
+          <select name="modulesList">
+            <option value=""></option>
+            <option value="abc">abstract base classes</option>
+            <option value="random">random</option>
+            <option value="re">regular expression</option>
+            <option value="secrets">secrets</option>
+            <option value="string">string</option>
+          </select>
       </div>
 
     </div>
