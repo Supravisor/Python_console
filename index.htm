@@ -480,6 +480,7 @@
   <!-- modules -->
       <div>
         <input class="name" type="button" value="modules">
+        <input type="button" class="block violet" value="modules" onclick="document.console.textbox.value+='\nimport ' + document.console.modulesList.value + '\n'">
           <select name="modulesList">
             <option value=""></option>
             <option value="abc">abstract base classes</option>
@@ -488,6 +489,13 @@
             <option value="secrets">secrets</option>
             <option value="string">string</option>
           </select>
+
+        <input type="button" class="block violet" value="from" onclick="document.console.textbox.value+='\nfrom ' + document.console.modulesList.value + ' import ' + document.console.modulesObject.value + '\n'">
+        <select name="modulesObject">
+          <option value=""></option>
+          <option value="ABC">ABC</option>
+        </select>
+
       </div>
 
     </div>

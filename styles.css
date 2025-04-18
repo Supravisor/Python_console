@@ -112,6 +112,10 @@ input, select {
   background: springgreen;
 }
 
+.violet {
+  background: violet;
+}
+
 /* colours - text */
 
 .cyan, .springgreen {
