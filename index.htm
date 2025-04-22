@@ -504,8 +504,9 @@
 
   <!-- regular expressions -->
       <div>
-        <input class="name" type="button" value="regular expressions">
+        <input type="button" class="subheading" value="regular expressions">
         <input type="button" class="block violet" value="compile" onclick="document.console.textbox.value+='re.compile(' + document.console.regex.value + ')'">
+        <input type="button" class="block violet" value="findall" onclick="document.console.textbox.value+='re.findall(' + document.console.regexSearch.value + ', ' + document.console.regex.value + ')'">
       </div>
 
     </div>
