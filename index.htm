@@ -506,10 +506,11 @@
       <div>
         <input type="button" class="subheading" value="regular expressions">
         <input type="button" class="block violet" value="compile" onclick="document.console.textbox.value+='re.compile(' + document.console.regex.value + ')'">
-        <input type="button" class="block violet" value="findall" onclick="document.console.textbox.value+='re.findall(' + document.console.regexSearch.value + ', ' + document.console.regex.value + ')'">
+        <input type="button" class="block violet" value="findall" onclick="document.console.textbox.value+='re.findall(' + document.console.regexString.value + ', ' + document.console.regex.value + ')'">
         <input type="button" class="block violet" value="search" onclick="document.console.textbox.value+='.search(' + document.console.regex.value + ')'">
-        <input type="button" class="block violet" value="search pattern" onclick="document.console.textbox.value+='re.search(' + document.console.regexSearch.value + ', ' + document.console.regex.value + ')'">
-        <input type="text" name="regex" value="">
+        <input type="button" class="block violet" value="search pattern" onclick="document.console.textbox.value+='re.search(' + document.console.regexString.value + ', ' + document.console.regex.value + ')'">
+        <input type="text" name="regex" placeholder="regex" value="">
+        <input type="text" name="regexString" placeholder="string" value="">
       </div>
 
     </div>
