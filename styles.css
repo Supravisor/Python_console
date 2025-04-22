@@ -114,12 +114,11 @@ input, select {
 
 .violet {
   background: violet;
-  color: black;
 }
 
 /* colours - text */
 
-.cyan, .springgreen {
+.cyan, .springgreen, .violet {
   color: black;
 }
 

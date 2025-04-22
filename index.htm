@@ -6,9 +6,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Python Console</title>
-
-<link href="./styles.css" rel="stylesheet" />
-
+  <link href="./styles.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -511,6 +509,14 @@
         <input type="button" class="block violet" value="search pattern" onclick="document.console.textbox.value+='re.search(' + document.console.regex.value + ', ' + document.console.regexString.value  + ')'">
         <input type="text" name="regex" placeholder="regex" value="">
         <input type="text" name="regexString" placeholder="string" value="">
+      </div>
+  <!-- character class -->
+      <div>
+        <input type="button" class="subheading" value="character class">
+        <input type="button" class="block grey" value="[" onclick="document.console.textbox.value+='['">
+        <input type="button" class="block grey" value="^" onclick="document.console.textbox.value+='^'">
+        <input type="button" class="block grey" value="-" onclick="document.console.textbox.value+='-'">
+        <input type="button" class="block grey" value="]" onclick="document.console.textbox.value+=']'">
       </div>
 
     </div>
