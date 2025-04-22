@@ -459,7 +459,7 @@
             <option value="5">5</option>
           </select>
 
-        <br /><input type="button" class="subheading" value="method">
+        <br /><input type="button" class="subheading" value="methods">
         <input type="button" class="block crimson" value="append" onclick="document.console.textbox.value+='.append'  + document.console.indentation.value + '(' + document.console.list.value + ')'">
         <input type="button" class="block crimson" value="insert" onclick="document.console.textbox.value+='.insert'  + document.console.indentation.value + '(' + document.console.list.value + ', ' + document.console.listMethod.value + ')'">
         <input type="button" class="block crimson" value="pop" onclick="document.console.textbox.value+='.pop' + document.console.indentation.value + '(' + document.console.listIndex.value + ')'">
@@ -500,6 +500,17 @@
         <input type="button" class="block violet" value="random" onclick="document.console.textbox.value+='random.random()'">
         <input type="button" class="block violet" value="choice" onclick="document.console.textbox.value+='random.choice(' + document.console.randomInput.value + ')'">
         <input type="text" name="randomInput" value="">
+      </div>
+
+  <!-- regular expressions -->
+      <div>
+        <input type="button" class="subheading" value="regular expressions">
+        <input type="button" class="block violet" value="compile" onclick="document.console.textbox.value+='re.compile(' + document.console.regex.value + ')'">
+        <input type="button" class="block violet" value="findall" onclick="document.console.textbox.value+='re.findall(' + document.console.regex.value + ', ' + document.console.regexString.value + ')'">
+        <input type="button" class="block violet" value="search" onclick="document.console.textbox.value+='.search(' + document.console.regex.value + ')'">
+        <input type="button" class="block violet" value="search pattern" onclick="document.console.textbox.value+='re.search(' + document.console.regex.value + ', ' + document.console.regexString.value  + ')'">
+        <input type="text" name="regex" placeholder="regex" value="">
+        <input type="text" name="regexString" placeholder="string" value="">
       </div>
 
     </div>
