@@ -516,6 +516,22 @@
         <input type="button" class="block grey" value="[" onclick="document.console.textbox.value+='['">
         <input type="button" class="block grey" value="^" onclick="document.console.textbox.value+='^'">
         <input type="button" class="block grey" value="-" onclick="document.console.textbox.value+='-'">
+        <input type="button" class="block grey" value="\ escape character" onclick="document.console.textbox.value+='\\'">
+        <input type="button" class="block grey" value=". any single character" onclick="document.console.textbox.value+='.'">
+        <input type="button" class="block grey" value="+ one or more" onclick="document.console.textbox.value+='+'">
+        <input type="button" class="block grey" value="* zero or more" onclick="document.console.textbox.value+='*'">
+        <input type="button" class="block grey" value="? zero or one" onclick="document.console.textbox.value+='?'">
+        <input type="button" class="block grey" value="n quantifier" onclick="document.console.textbox.value+='{' + document.console.nQuantifier.value + '}'">
+        <input type="button" class="block grey" value="n, m quantifier" onclick="document.console.textbox.value+='{' + document.console.nQuantifier.value + ', ' + document.console.mQuantifier.value + '}'">
+        <input type="text" name="nQuantifier" placeholder="n" value="">
+        <input type="text" name="mQuantifier" placeholder="m" value="">
+        <input type="button" class="block grey" value="number [0-9]" onclick="document.console.textbox.value+='\\d'">
+        <input type="button" class="block grey" value="not a number" onclick="document.console.textbox.value+='\\D'">
+        <input type="button" class="block grey" value="alphanumeric [a-zA-Z0-9_]" onclick="document.console.textbox.value+='\\w'">
+        <input type="button" class="block grey" value="not alphanumeric" onclick="document.console.textbox.value+='\\W'">
+        <input type="button" class="block grey" value="any whitespace character (space, tab, newline)" onclick="document.console.textbox.value+='\\s'">
+        <input type="button" class="block grey" value="any non-whitespace character" onclick="document.console.textbox.value+='\\d'">
+        <input type="button" class="block grey" value="$" onclick="document.console.textbox.value+='$'">
         <input type="button" class="block grey" value="]" onclick="document.console.textbox.value+=']'">
       </div>
 
