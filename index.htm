@@ -535,6 +535,23 @@
         <input type="button" class="block grey" value="]" onclick="document.console.textbox.value+=']'">
       </div>
 
+  <!-- numbers -->
+      <div>
+        <input class="name" type="button" value="numbers">
+        <input type="button" class="subheading" value="methods">
+        <input type="button" class="block grey" value="ceil" onclick="document.console.textbox.value+='math.ceil(' + document.console.numbersMethod.value + ')'">
+        <input type="button" class="block grey" value="cosine" onclick="document.console.textbox.value+='math.cos(' + document.console.numbersMethod.value + ')'">
+        <input type="button" class="block grey" value="degrees" onclick="document.console.textbox.value+='math.degrees(' + document.console.numbersMethod.value + ')'">
+        <input type="button" class="block grey" value="floor" onclick="document.console.textbox.value+='math.floor(' + document.console.numbersMethod.value + ')'">
+        <input type="button" class="block grey" value="radians" onclick="document.console.textbox.value+='math.radians(' + document.console.numbersMethod.value + ')'">
+        <input type="button" class="block grey" value="round" onclick="document.console.textbox.value+=document.console.numbersRound.value == '' ? 'math.round(' + document.console.numbersMethod.value + ')' : 'math.round(' + document.console.numbersMethod.value + ', ' + document.console.numbersRound.value + ')'">
+        <input type="text" name="numbersRound" placeholder="optional digits" value="">
+        <input type="button" class="block grey" value="sine" onclick="document.console.textbox.value+='math.sin(' + document.console.numbersMethod.value + ')'">
+        <input type="button" class="block grey" value="square root" onclick="document.console.textbox.value+='math.sqrt(' + document.console.numbersMethod.value + ')'">
+        <input type="button" class="block grey" value="tangent" onclick="document.console.textbox.value+='math.tan(' + document.console.numbersMethod.value + ')'">
+        <input type="text" name="numbersMethod" value="">
+      </div>
+
     </div>
 
   </form>
