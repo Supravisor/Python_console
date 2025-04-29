@@ -493,17 +493,17 @@
           <option value=""></option>
           <option value="ABC">ABC</option>
         </select>
+      </div>
 
+    <!-- random -->
+      <div>
         <br /><input type="button" class="subheading" value="random">
         <input type="button" class="block violet" value="random" onclick="document.console.textbox.value+='random.random()'">
         <input type="button" class="block violet" value="choice" onclick="document.console.textbox.value+='random.choice(' + document.console.randomInput.value + ')'">
         <input type="text" name="randomInput" value="">
-
-        <br /><input type="button" class="subheading" value="secrets">
-        <input type="button" class="block violet" value="choice" onclick="document.console.textbox.value+='secrets.choice(' + document.console.secretsInput.value + ')'">
       </div>
 
-  <!-- regular expressions -->
+    <!-- regular expressions -->
       <div>
         <input type="button" class="subheading" value="regular expressions">
         <input type="button" class="block violet" value="compile" onclick="document.console.textbox.value+='re.compile(' + document.console.regex.value + ')'">
@@ -513,7 +513,8 @@
         <input type="text" name="regex" placeholder="regex" value="">
         <input type="text" name="regexString" placeholder="string" value="">
       </div>
-  <!-- character class -->
+
+    <!-- character class -->
       <div>
         <input type="button" class="subheading" value="character class">
         <input type="button" class="block grey" value="[" onclick="document.console.textbox.value+='['">
@@ -536,6 +537,14 @@
         <input type="button" class="block grey" value="any non-whitespace character" onclick="document.console.textbox.value+='\\d'">
         <input type="button" class="block grey" value="$" onclick="document.console.textbox.value+='$'">
         <input type="button" class="block grey" value="]" onclick="document.console.textbox.value+=']'">
+      </div>
+
+    <!-- secrets -->
+      <div>
+        <br /><input type="button" class="subheading" value="secrets">
+        <input type="button" class="block violet" value="choice" onclick="document.console.textbox.value+='secrets.choice(' + document.console.secretsInput.value + ')'">
+        <input type="text" name="secretsInput" value="">
+
       </div>
 
   <!-- numbers -->
