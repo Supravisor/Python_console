@@ -541,11 +541,17 @@
 
     <!-- secrets -->
       <div>
-        <br /><input type="button" class="subheading" value="secrets">
+        <input type="button" class="subheading" value="secrets">
         <input type="button" class="block violet" value="choice" onclick="document.console.textbox.value+='secrets.choice(' + document.console.secretsInput.value + ')'">
         <input type="text" name="secretsInput" value="">
-
       </div>
+
+    <!-- strings -->
+      <div>
+        <input type="button" class="subheading" value="string">        
+      </div>
+
+
 
   <!-- numbers -->
       <div>
@@ -570,8 +576,6 @@
         <input type="button" class="block violet" value="raw string" onclick="document.console.textbox.value+='r\'' + document.console.rawString.value + '\''">
         <input type="text" name="rawString" value="">
       </div>
-
-    </div>
 
   </form>
 
