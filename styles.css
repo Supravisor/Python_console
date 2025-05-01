@@ -88,6 +88,10 @@ input, select {
   background: crimson;
 }
 
+.lightcrimson {
+  background-color: rgb(255,66,121);
+}
+
 .cyan {
   background: cyan;
 }
