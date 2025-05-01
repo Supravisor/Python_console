@@ -74,6 +74,11 @@ input, select {
   padding: 5px 5px;
 }
 
+#keyword-argument-btn {
+  color: black;
+  border: 2px solid coral;
+}
+
 /* colours  - background */
 
 .brown {
@@ -86,6 +91,10 @@ input, select {
 
 .crimson {
   background: crimson;
+}
+
+.lightcrimson {
+  background-color: rgb(255,66,121);
 }
 
 .cyan {
@@ -118,7 +127,7 @@ input, select {
 
 /* colours - text */
 
-.cyan, .springgreen, .violet {
+.coral, .cyan, .lightcrimson, .springgreen, .violet {
   color: black;
 }
 

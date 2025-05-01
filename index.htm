@@ -340,7 +340,7 @@
         <input type="button" class="block coral" value="custom method" onclick="document.console.textbox.value+='\n    def ' + document.console.classMethod.value + '(self' + document.console.keywordArgument.value + '):\n        '">
         <input type="text" name="classMethod" value="">
         <input type="text" name="keywordArgument" value="" class="hidden">
-        <input type="button" class="block coral" id="keyword-argument-btn" value="keyword only argument" onclick="keywordArg()">
+        <input type="button" class="block" id="keyword-argument-btn" value="keyword only argument" onclick="keywordArg()">
 
         <br /><input type="button" class="subheading" value="built-in functions">
         <input type="button" class="block coral" value="get attribute" onclick="document.console.textbox.value+='getattr(' + document.console.classObject.value + ', \'' + document.console.classAttribute.value + '\')'">
@@ -468,9 +468,9 @@
   <!-- loops -->
       <div>
         <input class="name" type="button" value="loops">
-        <input type="button" class="block green" value="for" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'for ' + document.console.iterator.value + ' in ' + document.console.iterable.value + ':\n' + document.console.indentation.value + '    '">
-        <input type="button" class="block green" value="placeholder" onclick="document.console.iterator.value='_'">
-        <input type="button" class="block green" value="while" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'while ' + document.console.iterator.value + ':\n' + document.console.indentation.value + '    '">
+        <input type="button" class="block lightcrimson" value="for" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'for ' + document.console.iterator.value + ' in ' + document.console.iterable.value + ':\n' + document.console.indentation.value + '    '">
+        <input type="button" class="block lightcrimson" value="placeholder" onclick="document.console.iterator.value='_'">
+        <input type="button" class="block lightcrimson" value="while" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'while ' + document.console.iterator.value + ':\n' + document.console.indentation.value + '    '">
         <input type="text" name="iterator" value="i">
         <input type="text" name="iterable" value="list">
       </div>
@@ -582,10 +582,20 @@
         <input type="text" name="numbersMethod" value="">
       </div>
 
+  <!-- objects -->
+      <div>
+        <input class="name" type="button" value="objects">
+        <input type="button" class="subheading" value="methods">
+        <input type="button" class="block crimson" value="find" onclick="document.console.textbox.value+='.find(' + document.console.method.value + ')'">
+        <input type="button" class="block crimson" value="isalpha" onclick="document.console.textbox.value+='.isalpha(' + document.console.method.value + ')'">
+        <input type="button" class="block crimson" value="index" onclick="document.console.textbox.value+='.index(' + document.console.method.value + ')'">
+        <input type="text" name="method" value="">
+      </div>
+
   <!-- raw strings -->
       <div>
         <input class="name" type="button" value="raw strings">
-        <input type="button" class="block violet" value="raw string" onclick="document.console.textbox.value+='r\'' + document.console.rawString.value + '\''">
+        <input type="button" class="block green" value="raw string" onclick="document.console.textbox.value+='r\'' + document.console.rawString.value + '\''">
         <input type="text" name="rawString" value="">
       </div>
 
