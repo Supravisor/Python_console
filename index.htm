@@ -592,17 +592,18 @@
         <input type="text" name="method" value="">
       </div>
 
+  <!-- operators -->
+      <div>
+        <input class="name" type="button" value="operators">
+        <input type="button" class="subheading" value="assignment">
+        <input type="button" class="block grey" value="assignment" onclick="document.console.textbox.value+=' = '">
+      </div>
+
   <!-- raw strings -->
       <div>
         <input class="name" type="button" value="raw strings">
         <input type="button" class="block green" value="raw string" onclick="document.console.textbox.value+='r\'' + document.console.rawString.value + '\''">
         <input type="text" name="rawString" value="">
-      </div>
-      
-  <!-- operators -->
-      <div>
-        <input class="name" type="button" value="operators">
-        <input type="button" class="subheading" value="assignment">
       </div>
 
   </form>
