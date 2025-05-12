@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Python Console</title>
+  <title>Python console</title>
   <link href="./styles.css" rel="stylesheet" />
 </head>
 
@@ -284,7 +284,7 @@
   </g>
 </svg>
     </div>
-    <h1>Python Console</h1>
+    <h1>Python console</h1>
   </header>
 
   <form name="console">
@@ -569,16 +569,16 @@
       <div>
         <input class="name" type="button" value="numbers">
         <input type="button" class="subheading" value="methods">
-        <input type="button" class="block grey" value="ceil" onclick="document.console.textbox.value+='math.ceil(' + document.console.numbersMethod.value + ')'">
-        <input type="button" class="block grey" value="cosine" onclick="document.console.textbox.value+='math.cos(' + document.console.numbersMethod.value + ')'">
-        <input type="button" class="block grey" value="degrees" onclick="document.console.textbox.value+='math.degrees(' + document.console.numbersMethod.value + ')'">
-        <input type="button" class="block grey" value="floor" onclick="document.console.textbox.value+='math.floor(' + document.console.numbersMethod.value + ')'">
-        <input type="button" class="block grey" value="radians" onclick="document.console.textbox.value+='math.radians(' + document.console.numbersMethod.value + ')'">
-        <input type="button" class="block grey" value="round" onclick="document.console.textbox.value+=document.console.numbersRound.value == '' ? 'math.round(' + document.console.numbersMethod.value + ')' : 'math.round(' + document.console.numbersMethod.value + ', ' + document.console.numbersRound.value + ')'">
+        <input type="button" class="block chartreuse" value="ceil" onclick="document.console.textbox.value+='math.ceil(' + document.console.numbersMethod.value + ')'">
+        <input type="button" class="block chartreuse" value="cosine" onclick="document.console.textbox.value+='math.cos(' + document.console.numbersMethod.value + ')'">
+        <input type="button" class="block chartreuse" value="degrees" onclick="document.console.textbox.value+='math.degrees(' + document.console.numbersMethod.value + ')'">
+        <input type="button" class="block chartreuse" value="floor" onclick="document.console.textbox.value+='math.floor(' + document.console.numbersMethod.value + ')'">
+        <input type="button" class="block chartreuse" value="radians" onclick="document.console.textbox.value+='math.radians(' + document.console.numbersMethod.value + ')'">
+        <input type="button" class="block chartreuse" value="round" onclick="document.console.textbox.value+=document.console.numbersRound.value == '' ? 'math.round(' + document.console.numbersMethod.value + ')' : 'math.round(' + document.console.numbersMethod.value + ', ' + document.console.numbersRound.value + ')'">
         <input type="text" name="numbersRound" placeholder="optional digits" value="">
-        <input type="button" class="block grey" value="sine" onclick="document.console.textbox.value+='math.sin(' + document.console.numbersMethod.value + ')'">
-        <input type="button" class="block grey" value="square root" onclick="document.console.textbox.value+='math.sqrt(' + document.console.numbersMethod.value + ')'">
-        <input type="button" class="block grey" value="tangent" onclick="document.console.textbox.value+='math.tan(' + document.console.numbersMethod.value + ')'">
+        <input type="button" class="block chartreuse" value="sine" onclick="document.console.textbox.value+='math.sin(' + document.console.numbersMethod.value + ')'">
+        <input type="button" class="block chartreuse" value="square root" onclick="document.console.textbox.value+='math.sqrt(' + document.console.numbersMethod.value + ')'">
+        <input type="button" class="block chartreuse" value="tangent" onclick="document.console.textbox.value+='math.tan(' + document.console.numbersMethod.value + ')'">
         <input type="text" name="numbersMethod" value="">
       </div>
 
@@ -640,7 +640,18 @@
         <input type="button" class="block springgreen" value="last index" onclick="document.console.textbox.value+='[-1]'">
         <input type="button" class="block springgreen" value="second to last index" onclick="document.console.textbox.value+='[-2]'">
         <input type="button" class="block springgreen" value="third to last index" onclick="document.console.textbox.value+='[-3]'">
-        <input type="button" class="block green" value="new line" onclick="document.console.textbox.value+='\n'"><br />
+        <input type="button" class="block green" value="new line" onclick="document.console.textbox.value+='\n'">
+        
+        <br /><input type="button" class="block springgreen" value="convert to string" onclick="document.console.textbox.value+='!s'">
+        <br /><input type="button" class="block springgreen" value="alignment" onclick="document.console.textbox.value+=':' + document.console.fStringFill.value + document.console.fStringAlignment.value + document.console.fStringLength.value">
+        <input type="text" name="fStringFill" value="">
+          <select name="fStringAlignment">
+            <option value=""></option>
+            <option value="<">left</option>
+            <option value=">">right</option>
+            <option value="^">center</option>
+          </select>
+        <input type="number" name="fStringLength" value="">
       </div>
 
   </form>
