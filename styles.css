@@ -89,6 +89,10 @@ input, select {
   background: brown;
 }
 
+.chartreuse {
+  background: chartreuse;
+}
+
 .coral {
   background: coral;
 }
@@ -131,7 +135,7 @@ input, select {
 
 /* colours - text */
 
-.coral, .cyan, .lightcrimson, .springgreen, .violet {
+.chartreuse, .coral, .cyan, .lightcrimson, .springgreen, .violet {
   color: black;
 }
 
