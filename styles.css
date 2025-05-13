@@ -6,14 +6,6 @@ body {
 
 header {
   text-align: center;
-  margin-top: -8px;
-}
-
-#logo {
-  background: white;
-  display: inline-block;
-  padding-left: 30px;
-  padding-top: 20px;
 }
 
 h1 {
