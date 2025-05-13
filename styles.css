@@ -50,15 +50,22 @@ input, select {
   margin-top: 2em;
 }
 
-.block {
+.block, .number {
   color: white;
   cursor: pointer;
   display: inline-block;
   font-size: 15px;
   margin: 4px 2px;
-  min-width: 60px;
   text-align: center;
   text-decoration: none;
+}
+
+.block {
+  min-width: 60px;
+}
+
+.number {
+  width: 20px;
 }
 
 .subheading {
