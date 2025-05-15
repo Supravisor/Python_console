@@ -128,7 +128,7 @@
         <input type="button" class="block grey" value="delete" onclick="document.console.textbox.value+='\ndel ' + document.console.dictionaryName.value + '[\'' + document.console.dictionaryKey.value + '\']'">
         <input type="button" class="block grey" value="update" onclick="document.console.textbox.value+='\n' + document.console.dictionaryName.value + '[\'' + document.console.dictionaryKey.value + '\'] = ' + document.console.dictionaryValue.value">
 
-        <br /><input type="button" class="subheading" value="method">
+        <br /><input type="button" class="subheading" value="methods">
         <input type="button" class="block crimson" value="values" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'for ' + document.console.dictionaryMethod.value + ' in ' + document.console.dictionaryName.value + '.values():\n' + document.console.indentation.value + '    '">
         <input type="button" class="block crimson" value="items" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'for ' + document.console.dictionaryMethod.value + ' in ' + document.console.dictionaryName.value + '.items():\n' + document.console.indentation.value + '    '">
         <input type="text" name="dictionaryMethod" value="">
@@ -383,6 +383,8 @@
 
         <br /><input type="button" class="block springgreen" value="decimal digits specifier" onclick="document.console.textbox.value+='.' + document.console.fStringDecimalDigit.value + 'f'">
         <input type="number" min="0" name="fStringDecimalDigit" value="">
+
+        <br /><input type="button" class="subheading" value="methods">
       </div>
 
   </form>
