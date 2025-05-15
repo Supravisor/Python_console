@@ -389,7 +389,8 @@
         <input type="button" class="block springgreen" value="islower" onclick="document.console.textbox.value+='.islower()'">
         <input type="button" class="block springgreen" value="upper" onclick="document.console.textbox.value+='.upper()'">
         <input type="button" class="block springgreen" value="isupper" onclick="document.console.textbox.value+='.isupper()'">
-        <input type="button" class="block springgreen" value="strip" onclick="document.console.textbox.value+=document.console.string.value + '.strip(\'' + document.console.stringMethod.value + '\')'">
+        <input type="button" class="block springgreen" value="strip" onclick="document.console.textbox.value+=document.console.stringStripMethod.value === '' ? document.console.string.value + '.strip()' : document.console.string.value + '.strip(\'' + document.console.stringStripMethod.value + '\')'">
+        <input type="text" name="stringStripMethod" value="">
       </div>
 
   </form>
