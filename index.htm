@@ -391,6 +391,13 @@
         <input type="button" class="block springgreen" value="isupper" onclick="document.console.textbox.value+='.isupper()'">
         <input type="button" class="block springgreen" value="strip" onclick="document.console.textbox.value+=document.console.stringStripMethod.value === '' ? document.console.string.value + '.strip()' : document.console.string.value + '.strip(\'' + document.console.stringStripMethod.value + '\')'">
         <input type="text" name="stringStripMethod" value="">
+
+        <br /><input type="button" class="subheading" value="regular expressions">
+        <input type="button" class="block springgreen" value="lookahead positive" onclick="document.console.textbox.value+='(?=' + document.console.lookAround.value + ')'">
+        <input type="button" class="block springgreen" value="lookahead negative" onclick="document.console.textbox.value+='(?!' + document.console.lookAround.value + ')'">
+        <input type="button" class="block springgreen" value="lookbehind positive" onclick="document.console.textbox.value+='(?<=' + document.console.lookAround.value + ')'">
+        <input type="button" class="block springgreen" value="lookbehind negative" onclick="document.console.textbox.value+='(?<!' + document.console.lookAround.value + ')'">
+        <input type="text" name="lookAround" value="">
       </div>
 
   </form>
