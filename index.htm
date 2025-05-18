@@ -398,6 +398,8 @@
         <input type="button" class="block springgreen" value="lookbehind positive" onclick="document.console.textbox.value+='(?<=' + document.console.lookAround.value + ')'">
         <input type="button" class="block springgreen" value="lookbehind negative" onclick="document.console.textbox.value+='(?<!' + document.console.lookAround.value + ')'">
         <input type="text" name="lookAround" value="">
+
+        <br /><input type="button" class="block springgreen" value="substitute" onclick="document.console.textbox.value+='re.sub(\'' + document.console.subReplace.value + '\', ' + document.console.subReplacement.value + ', ' + document.console.subString.value + ')'">
       </div>
 
   </form>
