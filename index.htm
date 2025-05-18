@@ -242,6 +242,15 @@
         <input type="text" name="regexString" placeholder="string" value="">
       </div>
 
+      <!-- substitute -->
+
+      <div>
+        <br /><input type="button" class="block springgreen" value="substitute" onclick="document.console.textbox.value+='re.sub(\'' + document.console.subReplace.value + '\', ' + document.console.subReplacement.value + ', ' + document.console.subString.value + ')'">
+        <input type="text" name="subReplace" placeholder="pattern">
+        <input type="text" name="subReplacement" value="replacement">
+        <input type="text" name="subString" value="string">
+      </div>
+
     <!-- character class -->
       <div>
         <input type="button" class="subheading" value="character class">
@@ -398,10 +407,6 @@
         <input type="button" class="block springgreen" value="lookbehind positive" onclick="document.console.textbox.value+='(?<=' + document.console.lookAround.value + ')'">
         <input type="button" class="block springgreen" value="lookbehind negative" onclick="document.console.textbox.value+='(?<!' + document.console.lookAround.value + ')'">
         <input type="text" name="lookAround" value="">
-
-        <br /><input type="button" class="block springgreen" value="substitute" onclick="document.console.textbox.value+='re.sub(\'' + document.console.subReplace.value + '\', ' + document.console.subReplacement.value + ', ' + document.console.subString.value + ')'">
-        <input type="text" name="subReplace" value="">
-        <input type="text" name="subReplacement" value="">
       </div>
 
   </form>
