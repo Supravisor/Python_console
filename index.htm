@@ -407,6 +407,11 @@
         <input type="button" class="block springgreen" value="lookbehind positive" onclick="document.console.textbox.value+='(?<=' + document.console.lookAround.value + ')'">
         <input type="button" class="block springgreen" value="lookbehind negative" onclick="document.console.textbox.value+='(?<!' + document.console.lookAround.value + ')'">
         <input type="text" name="lookAround" value="">
+
+        <br /><input type="button" class="block springgreen" value="range" onclick="document.console.textbox.value+='[' + document.console.start.value + ':' + document.console.stop.value + ':' + document.console.step.value + ']'">
+          <input type="number" name="start">
+          <input type="number" name="stop">
+          <input type="number" name="step">
       </div>
 
   </form>
