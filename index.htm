@@ -421,8 +421,9 @@
       <div>
         <input class="name" type="button" value="tuples">
         <input type="button" class="block crimson" value="tuple" onclick="document.console.textbox.value+=document.console.tuple.value + ' = (' + document.console.tupleContent.value + ')'">
-        <input type="text" name="tuple" value="">
-        <input type="text" name="tupleContent" value="">
+        <input type="text" name="tuple" placeholder="name">
+        <input type="text" name="tupleContent" placeholder="contents">
+        <input type="button" class="block crimson" value="unpack" onclick="document.console.textbox.value+=document.console.tupleVariable.value + ' = ' + document.console.tuple.value">
       </div>
 
   </form>
