@@ -366,18 +366,14 @@
         <input type="button" class="block azure" value="integer division" onclick="document.console.textbox.value+=' // '">
       </div>
 
-  <!-- raw strings -->
-      <div>
-        <input class="name" type="button" value="raw strings">
-        <input type="button" class="block green" value="raw string" onclick="document.console.textbox.value+='r\'' + document.console.rawString.value + '\''">
-        <input type="text" name="rawString" value="">
-      </div>
-
 <!-- strings -->
       <div>
         <br /><input class="name" type="button" value="strings">
         <input type="button" class="block springgreen" value="f-string" onclick="document.console.textbox.value+='\nf\&#39;' + document.console.string.value + '\&#39;'">
         <input type="text" name="string" value="">
+
+        <br /><input type="button" class="block green" value="raw string" onclick="document.console.textbox.value+='r\'' + document.console.rawString.value + '\''">
+        <input type="text" name="rawString" value="">
 
         <br /><input type="button" class="block springgreen" value="[" onclick="document.console.textbox.value+='['">
         <input type="button" class="block springgreen" value="]" onclick="document.console.textbox.value+=']'">
