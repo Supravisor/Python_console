@@ -113,13 +113,6 @@
         <input type="button" class="block cyan" value="not a module" onclick="document.console.textbox.value+='if __name__ == \'__main__\':\n    '">
       </div>
 
-    <!-- constructor -->
-      <div>
-        <input class="name" type="button" value="constructor">
-        <input type="button" class="block brown" value="tuple" onclick="document.console.textbox.value+='tuple(' + document.console.tupleConstructor.value + ')'">
-        <input type="text" name="tupleConstructor" value="">
-      </div>
-
     <!-- dictionaries -->
       <div>
         <input class="name" type="button" value="dictionaries">
@@ -169,11 +162,13 @@
         <input type="button" class="block blue" value="string" onclick="document.console.textbox.value+='str(' + document.console.functionArgument.value + ')'">
         <input type="button" class="block blue" value="sum" onclick="document.console.textbox.value+='sum(' + document.console.functionArgument.value + ')'">
         <input type="button" class="block blue" value="tuple" onclick="document.console.textbox.value+='tuple(' + document.console.functionArgument.value + ')'">
+        <input type="button" class="block blue" value="type" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'type(' + document.console.functionArgument.value + ')'">
+        <input type="text" name="functionArgument" placeholder="argument">
 
         <br /><input type="button" class="block blue" value="break" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + '    break'">
+        <input type="button" class="block blue" value="None" onclick="document.console.textbox.value+='None'">
         <input type="button" class="block blue" value="pass" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + '    pass'">
         <input type="button" class="block blue" value="return" onclick="document.console.textbox.value+='\n'  + document.console.indentation.value + '    return '">
-        <input type="text" name="functionArgument" value="">
       </div>
 
   <!-- lists -->
@@ -364,6 +359,15 @@
 
         <br /><input type="button" class="subheading" value="integer division">
         <input type="button" class="block azure" value="integer division" onclick="document.console.textbox.value+=' // '">
+      </div>
+
+<!-- sets -->
+      <div>
+        <input class="name" type="button" value="sets">
+        <input type="button" class="block crimson" value="set" onclick="document.console.textbox.value+='\n'  + document.console.indentation.value + document.console.setVariable.value + ' = {' + document.console.setContent.value + '}'">
+        <input type="button" class="block crimson" value="set constructor" onclick="document.console.textbox.value+='\n'  + document.console.indentation.value + document.console.setVariable.value + ' = set((' + document.console.setContent.value + '))'">
+        <input type="text" name="setVariable" placeholder="variable">
+        <input type="text" name="setContent" placeholder="content">
       </div>
 
 <!-- strings -->
