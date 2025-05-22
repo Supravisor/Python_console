@@ -124,7 +124,15 @@
         <input type="text" name="matchBind" placeholder="bind match">
         <input type="button" class="block lapis-lazuli" value="additonal bind case" onclick="document.console.caseBind.value+=' , '">
         <input type="button" class="block lapis-lazuli" value="next bind case" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + '    case [' + document.console.caseBind.value + ']:\n' + document.console.indentation.value + '        ' + document.console.matchBind.value">
-        <input type="button" class="block lapis-lazuli" value="default case" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + '    case _:\n' + document.console.indentation.value + '        ' + document.console.match.value">
+        <input type="button" class="block lapis-lazuli" value="default case" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + '    case _:\n' + document.console.indentation.value + '        ' + document.console.matchBind.value">
+
+        <br /><input type="button" class="block blue" value="try / except" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + '    try:\n        ' + document.console.indentation.value + document.console.try.value + '\n' + document.console.indentation.value + '    except' + document.console.listExcept.value + ':\n        ' + document.console.indentation.value + document.console.except.value">
+        <input type="text" name="try" placeholder="try">
+        <input type="text" name="except" placeholder="except">
+          <select name="listExcept">
+           <option value=""></option>
+           <option value=" ValueError">ValueError</option>
+          </select>
       </div>
 
     <!-- dictionaries -->
