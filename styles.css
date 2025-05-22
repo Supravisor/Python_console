@@ -81,6 +81,10 @@ input[type="number"] {
   background-color: rgb(0,127,255);
 }
 
+.cyan-blue-azure {
+  background: #4B8BBE;
+}
+
 .brown {
   background: brown;
 }
@@ -131,7 +135,7 @@ input[type="number"] {
 
 /* colours - text */
 
-.chartreuse, .coral, .cyan, .lightcrimson, .springgreen, .violet {
+.chartreuse, .coral, .cyan, .cyan-blue-azure, .lightcrimson, .springgreen, .violet {
   color: black;
 }
 
