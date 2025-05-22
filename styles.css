@@ -129,6 +129,10 @@ input[type="number"] {
   background: violet;
 }
 
+.yellow {
+  background: yellow;
+}
+
 /* colours - text */
 
 .chartreuse, .coral, .cyan, .lightcrimson, .springgreen, .violet {
