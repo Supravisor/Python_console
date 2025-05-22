@@ -81,6 +81,10 @@ input[type="number"] {
   background-color: rgb(0,127,255);
 }
 
+.cyan-blue-azure {
+  background: #4B8BBE;
+}
+
 .brown {
   background: brown;
 }
@@ -127,10 +131,6 @@ input[type="number"] {
 
 .violet {
   background: violet;
-}
-
-.yellow {
-  background: yellow;
 }
 
 /* colours - text */
