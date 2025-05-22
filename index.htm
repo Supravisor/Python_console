@@ -108,8 +108,7 @@
         <input type="button" class="button cyan" value="None" onclick="document.console.if.value+='None'">
         <input type="button" class="button cyan" value="walrus operator" onclick="document.console.if.value+=' := '">
 
-        <br /><input type="button" class="block cyan" value="continue" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + '    continue'">
-        <input type="button" class="block cyan" value="not in" onclick="document.console.textbox.value+=document.console.if.value + ' not in ' + document.console.else.value + '\n'">
+        <br /><input type="button" class="block cyan" value="not in" onclick="document.console.textbox.value+=document.console.if.value + ' not in ' + document.console.else.value + '\n'">
         <input type="button" class="block cyan" value="not a module" onclick="document.console.textbox.value+='if __name__ == \'__main__\':\n    '">
 
         <br /><input type="button" class="block lapis-lazuli" value="match" onclick="document.console.textbox.value+=Number(document.console.case.value) ? '\n' + document.console.indentation.value + 'match \n' + document.console.indentation.value + '    case ' + document.console.case.value + ':\n' + document.console.indentation.value + '        ' + document.console.match.value : '\n' + document.console.indentation.value + 'match \n' + document.console.indentation.value + '    case \'' + document.console.case.value + '\':\n' + document.console.indentation.value + '        ' + document.console.match.value">
@@ -233,6 +232,8 @@
         <input type="button" class="block lightcrimson" value="while" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + 'while ' + document.console.iterator.value + ':\n' + document.console.indentation.value + '    '">
         <input type="text" name="iterator" value="i">
         <input type="text" name="iterable" value="list">
+
+        <br /><input type="button" class="block lightcrimson" value="continue" onclick="document.console.textbox.value+='\n' + document.console.indentation.value + '    continue'">
       </div>
 
   <!-- modules -->
