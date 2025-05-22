@@ -135,7 +135,7 @@ input[type="number"] {
 
 /* colours - text */
 
-.chartreuse, .coral, .cyan, .lightcrimson, .springgreen, .violet {
+.chartreuse, .coral, .cyan, .cyan-blue-azure, .lightcrimson, .springgreen, .violet {
   color: black;
 }
 
